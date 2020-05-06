@@ -1,4 +1,4 @@
-# python-Rabin-Karps-Algorithm
+# python-Rabin-Karps-Algorithm-longest-common-substring
 This Python program finds the longest common substring, using Rabin-Karp’s Algorithm.
 The input is two strings separated by a space.
 The output is 3 integers:
