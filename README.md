@@ -7,7 +7,7 @@ ii) the starting position in the second string, of the longest common substring
 iii) the length of the longest common substring
 
 Rabin-Karp’s Algorithm compares substrings by comparing their polynomial hashcodes, rather than character-by-character.
-Hashcode computations use the similarity of the polynomial hash functions of substrings of the same length in a string.
+Hashcode computations leverage the similarity of the polynomial hash functions of substrings of the same length in a string.
 The hashcode computations are performed for only the substring lengths that occur in a binary search of the substring length.
 For each recursive pass of the binary search, for the substring length of that precursive pass, for each prime number any hashcodes are found that match between substrings of the two strings.
 Before each time that a match is checked, a dictionary is created with keys being the hashcodes and the values being the beginning positions of the substrings in both strings. 
