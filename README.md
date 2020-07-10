@@ -16,6 +16,6 @@ If a match results from the first recursive pass of the binary search, then the 
 If no match results from the first recursive pass of the binary search, then the next recursive pass uses a shorter length.
 The result of the binary search is the result from the next-to-final pass. 
 If the binary search results in a length of zero with any of the prime numbers, the final answer is no match.
-If the binary searches with different prime numbers results in different lengths of the longest common substring,
+If the binary searches with different prime numbers result in different lengths of the longest common substring,
 the binary search is repeated with the minimum length.
 If no match with different prime numbers still results, the binary search is performed repeatedly, decrementing the length by one each time.
