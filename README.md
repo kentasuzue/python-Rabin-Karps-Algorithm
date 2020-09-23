@@ -14,8 +14,9 @@ Before each time that a match is checked, a dictionary is created with keys bein
 To find the length of the longest matching substring, the binary search starts with half the length of the shorter string.
 If a match results from the first recursive pass of the binary search, then the next recursive pass uses a larger length.
 If no match results from the first recursive pass of the binary search, then the next recursive pass uses a shorter length.
-The result of the binary search is the result from the next-to-final pass. 
+The result of the binary search is the result from the next-to-final pass.
 If the binary search results in a length of zero with any of the prime numbers, the final answer is no match.
+The process is repeated with multiple polynomial hash functions that have mutually distinct prime numbers. 
 If the binary searches with different prime numbers result in different lengths of the longest common substring,
 the binary search is repeated with the minimum length.
 If no match with different prime numbers still results, the binary search is performed repeatedly, decrementing the length by one each time.
